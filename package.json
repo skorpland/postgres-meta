@@ -1,6 +1,6 @@
 {
   "name": "@skorpland/postgres-meta",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A RESTful API for managing your Postgres.",
   "homepage": "https://github.com/powerbase/postgres-meta",
   "bugs": "https://github.com/powerbase/postgres-meta/issues",
@@ -14,8 +14,9 @@
   "types": "dist/lib/index.d.ts",
   "imports": {
     "#package.json": "./package.json"
-  } , "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  } ,  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
